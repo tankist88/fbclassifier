@@ -2,3 +2,5 @@ django
 gunicorn
 django-heroku
 scikit-learn
+psycopg2-binary
+dj-database-url
