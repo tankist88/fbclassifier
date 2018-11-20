@@ -27,7 +27,7 @@ SECRET_KEY = '8oiszu60q5mau)s^jjuw^3)ayj*1gn0swmd&#8ac7++hfz0wc1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fbclassifier.herokuapp.com','localhost','127.0.0.1']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'classifier'
 ]
 

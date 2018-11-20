@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from classifier import apis
 
 urlpatterns = [
     path('', include('classifier.urls')),
     path('admin/', admin.site.urls),
+    path('api/classes/', apis.get_classes),
 ]
